@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body>
-    <ul>
+
+<body class="background">
+    <ul id="menu">
         <li>
             <a href="index.html"> Inicio</a>
         </li>
@@ -16,32 +20,63 @@
         </li>
     </ul>
     <hr>
-    <h1>Contatos:</h1>
-    
-    <form>
-        <label for="nome"> Nome:</label><br>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label for="email"> Email:</label><br>
-        <input type="text" id="email">
-        <br>
-        <br>
-        <label for="assunto"> Assunto:</label><br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
-    </form>
+    <h1>Para conhecer melhor meu trabalho</h1>
     <hr>
-    <h2>Endereço:</h2>
-    <p>Museu Real de Ontário</p>
-    <p>100 Queens Park, Toronto-ON</p>
-    <p>Toronto - Canada</p>
+    <div class="container-1 mb-50">
+        <div>
+            <h2>Entre em contato</h2>
+            <form>
+                <label for="nome"> Nome:</label><br>
+                <textarea name="nome" id="nome" cols="60" rows="1"></textarea>
+                <br>
+                <br>
+                <label for="email"> Email:</label><br>
+                <textarea name="email" id="email" cols="60" rows="1"></textarea>
+                <br>
+                <br>
+                <label for="assunto"> Assunto:</label><br>
+                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+                <br>
+                <br>
+                <center>
+                    <button class="tm-enviar">Enviar</button>
+                </center>
+            </form>
+        </div>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55451.73090061329!2d-79.38818588493062!3d43.
+        <div class="ml-50">
+            <p>Museu Real de Ontário 100 Queens Park, Toronto-ON Toronto - Canada</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55451.73090061329!2d-79.38818588493062!3d43.
                  660633940004864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
-                 1!3m3!1m2!1s0x882b34baf3dae513%3A0xc98434e11ec5f592!2sMuseu%20Real%20de%20Ont%C3%A1rio!5e0!3m2!1spt-BR!2sbr!4v1647449529137!5m2!1spt-BR!2sbr" 
-            width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                 1!3m3!1m2!1s0x882b34baf3dae513%3A0xc98434e11ec5f592!2sMuseu%20Real%20de%20Ont%C3%A1rio!5e0!3m2!1spt-BR!2sbr!4v1647449529137!5m2!1spt-BR!2sbr"
+                width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy" ></iframe>
+        </div>
+    </div>
+
+    <hr>
+    <br>
+    <br>
+    <footer>
+        <div class="container ">
+            <a href="https://github.com/Sam-Pina" target="_blank">
+                <img class="tm-social p-30" src="/assets/img/github.png" alt="Logo do GitHub">
+            </a>
+
+            <a href="https://www.instagram.com/samukaz_/" target="_blank">
+                <img class="tm-social p-30" src="/assets/img/instagram.png" alt="Logo do Instagram">
+            </a>
+
+            <a href="https://www.linkedin.com/in/samuel-santoss/" target="_blank">
+                <img class="tm-social p-30" src="/assets/img/linkedin.png" alt="Logo do Linkedin">
+            </a>
+        </div>
+
+        <p class="center">
+            Site oficial do autor: Samuel Pina &copy;
+        </p>
+    </footer>
+
 </body>
+
 </html>

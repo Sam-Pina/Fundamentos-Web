@@ -1,0 +1,81 @@
+h1{
+    color: rgb(43, 41, 41);
+    text-align: center;
+    margin: 15px;
+}
+
+h2{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    margin: 15px;
+}
+
+p,h1, h2{
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.center{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-1{
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+}
+
+#menu li{
+   display: inline;
+   padding: 20px;
+}
+
+#menu li a{
+   text-decoration: none;
+   color: black;
+   font-size: 20px;
+ }
+
+ #menu li a:hover{
+     color: gray;
+ }
+
+ .p-30{
+     padding: 30px;
+ }
+
+ .br-50{
+     border-radius: 50%;
+ }
+
+ .wh-350{
+     width: 350px;
+     height: 350px;
+ }
+
+ .tm-social{
+     width: 50px;
+     height: 50px;
+ }
+
+ .mb-50{
+     margin-bottom: 50px;
+ }
+
+ .ml-50{
+     margin-left: 50px;
+ }
+
+ .tm-enviar{
+     width: 300px;
+ }
+ 
+ .background{
+     background-color: rgb(233, 233, 233);
+ }
